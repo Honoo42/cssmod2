@@ -1,0 +1,126 @@
+.horizontal-container img {
+  margin: 0 auto;
+  padding: 4%;
+}
+
+.vertical-container {
+  display: inline-block;
+  padding: 4%;
+  width: 100%;
+  height: 100px;
+}
+.vertical-container p{
+  display: block;
+  padding: 4%;
+}.vertical-container ol{
+  display: block;
+  padding: 4%;
+}
+.horilist {
+	display: inline-block;
+}
+
+$hscale: 50px;
+$vscale: 24%;
+
+.largebutton {
+  width: $vscale;
+  background: #ff9999;
+  border: 2px solid;
+  border-radius: 10px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 5.5;
+}
+.medbutton {
+	width: $vscale /2;
+	background:#ff9999;
+	border: 2px solid;
+  	border-radius: 10px;
+  	display: inline-block;
+  	color: #fff;
+  	vertical-align: middle;
+  	text-align: center;
+  	line-height: 3.5;
+  	text-decoration: none;
+}
+.smallbutton {
+	width: $vscale /3;
+	background:#ff9999;
+	border: 2px solid;
+  	border-radius: 10px;
+  	display: inline-block;
+  	color: #fff;
+  	text-align: center;
+  	text-decoration: none;
+  	vertical-align: middle;
+  	line-height: 3;
+}
+.navmenu {
+	width: 90%;
+  background: #ff9999;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  padding: .5em;
+}
+.navlinks {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.4em;
+  font-size: 1.1em;
+  	&:hover {
+  		text-transform: bold;
+  		color: #3d8;
+  		text-decoration: underline;
+  	}
+
+}
+
+.paginationclean li {
+  font-size: 1em;
+  list-style: none;
+  display: inline-block;
+  width: 5%;
+  color: #f99;
+  border-bottom: .25em #f99 solid;
+  margin: 0% 0% 0% 4%;
+}
+
+.paginationclean li, .paginationclean a {
+}
+
+.paginationclean .prev-off, .paginationclean .next-off {
+  color: #f99;
+  display: inline-block;
+  font-weight: bold;
+  border: none;
+}
+
+.paginationclean .next a, .paginationclean .prev a {
+  font-weight: bold;
+  border: none;
+}
+
+.paginationclean .activepagi {
+  color: #ddd;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: #ddd solid .25em;
+}
+
+.paginationclean a:link, .paginationclean a:visited {
+  color: #f99;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.paginationclean a:hover {
+  text-decoration: none;
+}
+.paginationclean .next{
+	border:none;
+}
